@@ -4,38 +4,42 @@ import "../App.css";
 import Square from "./Square";
 const size = 15;
 
-function Board(props){
-  const renderSquare = (i) => {
+class Board extends React.Component {
+  renderSquare(i) {
+    // this.props.winner && this.props.winner.includes(i) ? console.log(i) : {}
     return (
       <Square
         className={
-          props.winner && props.winner.includes(i) ? "win" : ""
+          this.props.winner && this.props.winner.includes(i) ? "win" : ""
         }
-        value={props.squares[i]}
-        onClick={() => props.onClick(i)}
+        value={this.props.squares[i]}
+        onClick={() => this.props.onClick(i)}
         
       />
     );
   }
 
-  return (
-    <div className="board-rows">
-      {Array(size)
-        .fill(null)
-        .map((itemi, i) => (
-          <div className="board-columns" key={i}>
+  
+    render() {
+        return (
+          <div className="board-rows">
             {Array(size)
-            .fill(null)
-            .map((itemj, j) => (
-            <div key={j}>
-              {renderSquare(size*i+j)}
-            </div>
-            ))}
+              .fill(null)
+              .map((itemi, i) => (
+                <div className="board-columns" key={i}>
+                  {Array(size)
+                  .fill(null)
+                  .map((itemj, j) => (
+                  <div key={j}>
+                    {this.renderSquare(size*i+j)}
+                  </div>
+                  ))}
+                </div>
+              ))}
           </div>
-        ))}
-    </div>
-    
-  );
+          
+        );
+    }
 }
 
 export default Board;
