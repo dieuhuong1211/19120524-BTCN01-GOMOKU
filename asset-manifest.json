@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/19120524-BTCN02-GOMOKU/static/css/main.00af10cf.css",
-    "main.js": "/19120524-BTCN02-GOMOKU/static/js/main.ef8a8fa7.js",
-    "static/js/787.8e51dfa7.chunk.js": "/19120524-BTCN02-GOMOKU/static/js/787.8e51dfa7.chunk.js",
-    "index.html": "/19120524-BTCN02-GOMOKU/index.html",
-    "main.00af10cf.css.map": "/19120524-BTCN02-GOMOKU/static/css/main.00af10cf.css.map",
-    "main.ef8a8fa7.js.map": "/19120524-BTCN02-GOMOKU/static/js/main.ef8a8fa7.js.map",
-    "787.8e51dfa7.chunk.js.map": "/19120524-BTCN02-GOMOKU/static/js/787.8e51dfa7.chunk.js.map"
+    "main.css": "/19120524-BTCN02-GOMOKU-REFACTOR/static/css/main.00af10cf.css",
+    "main.js": "/19120524-BTCN02-GOMOKU-REFACTOR/static/js/main.e3f0eaa8.js",
+    "static/js/787.8e51dfa7.chunk.js": "/19120524-BTCN02-GOMOKU-REFACTOR/static/js/787.8e51dfa7.chunk.js",
+    "index.html": "/19120524-BTCN02-GOMOKU-REFACTOR/index.html",
+    "main.00af10cf.css.map": "/19120524-BTCN02-GOMOKU-REFACTOR/static/css/main.00af10cf.css.map",
+    "main.e3f0eaa8.js.map": "/19120524-BTCN02-GOMOKU-REFACTOR/static/js/main.e3f0eaa8.js.map",
+    "787.8e51dfa7.chunk.js.map": "/19120524-BTCN02-GOMOKU-REFACTOR/static/js/787.8e51dfa7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00af10cf.css",
-    "static/js/main.ef8a8fa7.js"
+    "static/js/main.e3f0eaa8.js"
   ]
 }
